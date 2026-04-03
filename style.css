@@ -1,0 +1,157 @@
+*{
+    margin:auto;
+    padding:0;
+    box-sizing: border-box;
+    /* border: 1px solid blue;  */
+}
+
+body{
+    height:100vh; 
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background-image: url('Slide6.JPG');
+    background-size: cover;
+    font-family: Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+}
+.content{
+    margin:auto;
+    padding: 0px;
+    width:100%;
+    
+}
+.video{
+    float:left;
+    position:sticky;
+    margin-top:10px;
+}
+.datetime{
+    color:#fff;
+    background:10101E;
+    font-family:"Segoe UI",sans-serif;
+    width:340px;
+    padding:50px 5px;
+    border:3px solid #2E94E3;
+    border-radius:5px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,rgba(255,255,255,0.1));
+    transition:0.5s;
+    transition-property: background,box-shadow;
+    float:right; 
+    margin-right:100px;
+}
+
+.datetime:hover{
+    background: #2E94e3;
+    box-shadow: 0 0 10px #2E94e3; 
+}
+.date{
+    font-size:20px;
+    font-weight:600;
+    text-align:center;
+    letter-spacing:2px;
+    
+}
+
+.time{
+    font-size:60px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+.time span:not(:last-child){
+    position:relative;
+    margin:0 6px;
+    font-weight:600;
+    text-align:center;
+    letter-spacing:2px;
+    
+}
+
+.time span:last-child{
+    background:#2E94E3;
+    font-size: 30px;
+    font-weight: 20;
+    text-transform:uppercase;
+    margin-top:15px;
+    padding:0 2px;
+    border-radius:3px;
+    
+   
+}
+
+
+.mySlides {
+    display: none;
+    
+}
+
+img {
+    vertical-align: middle;
+    width: 150px;
+    height: 300px;
+    object-fit:contain;
+    
+} 
+
+/* Slideshow container */
+.slideshow-container {
+width:450px;
+height: 300px;
+position:relative;
+margin-top:10px;
+margin-bottom: 200px;
+float:right;
+padding:2px;
+margin-right:40px;
+background-size: 100% 100%;
+box-shadow:1px 5px 15px 10px rgb(8, 6, 99);
+background-color:rgb(11, 10, 73);
+
+} 
+
+/* The dots/bullets/indicators */
+.dot {
+height: 5px;
+width: 5px;
+margin:0 2px;
+background-color: #bbb;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+}
+
+.active {
+background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+animation-name: fade;
+animation-duration: 1.5s;
+
+}
+
+@keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
+
+h1{
+  font-size:50px;
+  color:#fff;
+
+}
+header{
+ 
+  text-align:center;
+} 
+
+

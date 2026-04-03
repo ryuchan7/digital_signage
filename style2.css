@@ -1,0 +1,87 @@
+body{
+    height:100vh; 
+    /* display:flex;
+    justify-content:center;
+    align-items: center; */
+    background-image: url('Slide6.JPG');
+    background-size: cover;
+    font-family: Verdana, sans-serif;
+}
+h1{
+    text-align: center;
+    color:rgb(255, 245, 245);
+    font-size: 50px;
+}
+.content{  
+    padding:0px;
+    margin: right 100px;
+    
+}
+#idle_video{
+  margin-top: 50px;
+  
+}
+
+.logo{
+    margin-top: 30px;
+    float:left;
+    margin-left:10px;
+    
+}
+
+.datetime{
+    color:#fff;
+    background:10101E;
+    font-family:"Segoe UI",sans-serif;
+    width:250px;
+    padding:10px 5px;
+    border:3px solid #2E94E3;
+    border-radius:5px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,rgba(255,255,255,0.1));
+    transition:0.5s;
+    transition-property: background,box-shadow;
+    float:right; 
+    margin-top: 50px;
+    
+}
+
+.datetime:hover{
+    background: #2E94e3;
+    /* box-shadow: 0 0 10px #2E94e3;  */
+    
+}
+.date{
+    font-size:30px;
+    font-weight:600;
+    text-align:center;
+    letter-spacing:1px;
+    
+}
+
+.time{
+    font-size:30px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+.time span:not(:last-child){
+    position:relative;
+    margin:0 6px;
+    font-weight:600;
+    text-align:center;
+    letter-spacing:2px;
+    
+}
+
+.time span:last-child{
+    background:#2E94E3;
+    font-size: 12px;
+    font-weight: 20;
+    text-transform:uppercase;
+    margin-top:15px;
+    padding:0 2px;
+    border-radius:3px;
+ 
+}
